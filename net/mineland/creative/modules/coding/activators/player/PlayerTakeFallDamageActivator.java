@@ -1,0 +1,57 @@
+package net.mineland.creative.modules.coding.activators.player;
+
+import net.mineland.core.bukkit.modules.user.User;
+import net.mineland.creative.modules.coding.activators.Activator;
+import net.mineland.creative.modules.coding.activators.ActivatorType;
+import net.mineland.creative.modules.coding.events.DamageEvent;
+import net.mineland.creative.modules.coding.events.GamePlayerEvent;
+import net.mineland.creative.modules.creative.Plot;
+import org.bukkit.Material;
+import org.bukkit.entity.Entity;
+import org.bukkit.event.Cancellable;
+import org.bukkit.event.entity.EntityDamageEvent;
+import ua.govnojon.libs.bukkitutil.ItemData;
+
+public class PlayerTakeFallDamageActivator extends Activator {
+   public PlayerTakeFallDamageActivator(Plot plot) {
+      super(plot);
+   }
+
+   public ActivatorType getType() {
+      return ActivatorType.PLAYER_TAKE_FALL_DAMAGE;
+   }
+
+   public ItemData getIcon() {
+      return new ItemData(Material.GRASS);
+   }
+
+   public static class Event extends GamePlayerEvent implements Cancellable, DamageEvent {
+      public Event(User user, Plot plot, EntityDamageEvent event) {
+         super(user, plot, event);
+      }
+
+      public boolean isCancelled() {
+         return ((EntityDamageEvent)this.getHandleEvent()).isCancelled();
+      }
+
+      public void setCancelled(boolean b) {
+         ((EntityDamageEvent)this.getHandleEvent()).setCancelled(b);
+      }
+
+      public double getDamage() {
+         return ((EntityDamageEvent)this.getHandleEvent()).getFinalDamage();
+      }
+
+      public Entity getDamager() {
+         return null;
+      }
+
+      public Entity getShooter() {
+         return null;
+      }
+
+      public Entity getVictim() {
+         return this.getPlayer();
+      }
+   }
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ru.yottacraft:PaperSpigot:build1384">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/PaperSpigot/build1384/PaperSpigot-build1384.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/PaperSpigot/build1384/PaperSpigot-build1384-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/PaperSpigot/build1384/PaperSpigot-build1384-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

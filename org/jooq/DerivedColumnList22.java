@@ -1,0 +1,5 @@
+package org.jooq;
+
+public interface DerivedColumnList22 extends QueryPart {
+   <R extends Record22<?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?>> CommonTableExpression<R> as(Select<R> var1);
+}

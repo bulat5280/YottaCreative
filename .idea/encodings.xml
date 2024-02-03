@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/META-INF/maven/com.googlecode.json-simple/json-simple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/com.googlecode.json-simple/json-simple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/com.zaxxer/HikariCP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/com.zaxxer/HikariCP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-codec/commons-codec" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-codec/commons-codec/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-codec/commons-codec/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-logging/commons-logging" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-logging/commons-logging/src/main/java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/commons-logging/commons-logging/src/main/resources" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/net.mineland/creative-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/net.mineland/creative-plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-math3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-math3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-math3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-pool2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-pool2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-pool2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpcore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpcore/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.flywaydb/flyway-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-codegen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-codegen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-meta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-meta/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/META-INF/maven/org.jooq/jooq/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

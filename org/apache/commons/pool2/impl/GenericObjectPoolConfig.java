@@ -1,0 +1,52 @@
+package org.apache.commons.pool2.impl;
+
+public class GenericObjectPoolConfig extends BaseObjectPoolConfig {
+   public static final int DEFAULT_MAX_TOTAL = 8;
+   public static final int DEFAULT_MAX_IDLE = 8;
+   public static final int DEFAULT_MIN_IDLE = 0;
+   private int maxTotal = 8;
+   private int maxIdle = 8;
+   private int minIdle = 0;
+
+   public int getMaxTotal() {
+      return this.maxTotal;
+   }
+
+   public void setMaxTotal(int maxTotal) {
+      this.maxTotal = maxTotal;
+   }
+
+   public int getMaxIdle() {
+      return this.maxIdle;
+   }
+
+   public void setMaxIdle(int maxIdle) {
+      this.maxIdle = maxIdle;
+   }
+
+   public int getMinIdle() {
+      return this.minIdle;
+   }
+
+   public void setMinIdle(int minIdle) {
+      this.minIdle = minIdle;
+   }
+
+   public GenericObjectPoolConfig clone() {
+      try {
+         return (GenericObjectPoolConfig)super.clone();
+      } catch (CloneNotSupportedException var2) {
+         throw new AssertionError();
+      }
+   }
+
+   protected void toStringAppendFields(StringBuilder builder) {
+      super.toStringAppendFields(builder);
+      builder.append(", maxTotal=");
+      builder.append(this.maxTotal);
+      builder.append(", maxIdle=");
+      builder.append(this.maxIdle);
+      builder.append(", minIdle=");
+      builder.append(this.minIdle);
+   }
+}

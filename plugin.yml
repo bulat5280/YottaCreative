@@ -1,0 +1,6 @@
+name: Creative
+main: net.mineland.creative.PluginCreative
+version: 2.2.8
+description: Creative
+author: XjCyan1de
+softdepend: [Libs, FastAsyncWorldEdit]

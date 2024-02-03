@@ -1,0 +1,87 @@
+package org.jooq.exception;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public enum SQLStateClass {
+   C00_SUCCESSFUL_COMPLETION("00"),
+   C01_WARNING("01"),
+   C02_NO_DATA("02"),
+   C07_DYNAMIC_SQL_ERROR("07"),
+   C08_CONNECTION_EXCEPTION("08"),
+   C09_TRIGGERED_ACTION_EXCEPTION("09"),
+   C0A_FEATURE_NOT_SUPPORTED("0A"),
+   C0D_INVALID_TARGET_TYPE_SPECIFICATION("0D"),
+   C0E_INVALID_SCHEMA_NAME_LIST_SPECIFICATION("0E"),
+   C0F_LOCATOR_EXCEPTION("0F"),
+   C0L_INVALID_GRANTOR("0L"),
+   C0M_INVALID_SQL_INVOKED_PROCEDURE_REFERENCE("0M"),
+   C0P_INVALID_ROLE_SPECIFICATION("0P"),
+   C0S_INVALID_TRANSFORM_GROUP_NAME_SPECIFICATION("0S"),
+   C0T_TARGET_TABLE_DISAGREES_WITH_CURSOR_SPECIFICATION("0T"),
+   C0U_ATTEMPT_TO_ASSIGN_TO_NON_UPDATABLE_COLUMN("0U"),
+   C0V_ATTEMPT_TO_ASSIGN_TO_ORDERING_COLUMN("0V"),
+   C0W_PROHIBITED_STATEMENT_ENCOUNTERED_DURING_TRIGGER_EXECUTION("0W"),
+   C0Z_DIAGNOSTICS_EXCEPTION("0Z"),
+   C21_CARDINALITY_VIOLATION("21"),
+   C22_DATA_EXCEPTION("22"),
+   C23_INTEGRITY_CONSTRAINT_VIOLATION("23"),
+   C24_INVALID_CURSOR_STATE("24"),
+   C25_INVALID_TRANSACTION_STATE("25"),
+   C26_INVALID_SQL_STATEMENT_NAME("26"),
+   C27_TRIGGERED_DATA_CHANGE_VIOLATION("27"),
+   C28_INVALID_AUTHORIZATION_SPECIFICATION("28"),
+   C2B_DEPENDENT_PRIVILEGE_DESCRIPTORS_STILL_EXIST("2B"),
+   C2C_INVALID_CHARACTER_SET_NAME("2C"),
+   C2D_INVALID_TRANSACTION_TERMINATION("2D"),
+   C2E_INVALID_CONNECTION_NAME("2E"),
+   C2F_SQL_ROUTINE_EXCEPTION("2F"),
+   C2H_INVALID_COLLATION_NAME("2H"),
+   C30_INVALID_SQL_STATEMENT_IDENTIFIER("30"),
+   C33_INVALID_SQL_DESCRIPTOR_NAME("33"),
+   C34_INVALID_CURSOR_NAME("34"),
+   C35_INVALID_CONDITION_NUMBER("35"),
+   C36_CURSOR_SENSITIVITY_EXCEPTION("36"),
+   C38_EXTERNAL_ROUTINE_EXCEPTION("38"),
+   C39_EXTERNAL_ROUTINE_INVOCATION_EXCEPTION("39"),
+   C3B_SAVEPOINT_EXCEPTION("3B"),
+   C3C_AMBIGUOUS_CURSOR_NAME("3C"),
+   C3D_INVALID_CATALOG_NAME("3D"),
+   C3F_INVALID_SCHEMA_NAME("3F"),
+   C40_TRANSACTION_ROLLBACK("40"),
+   C42_SYNTAX_ERROR_OR_ACCESS_RULE_VIOLATION("42"),
+   CHZ_REMOTE_DATABASE_ACCESS("HZ"),
+   OTHER(""),
+   NONE("");
+
+   private static final Map<String, SQLStateClass> lookup = new HashMap();
+   private final String className;
+
+   private SQLStateClass(String className) {
+      this.className = className;
+   }
+
+   public String className() {
+      return this.className;
+   }
+
+   public static SQLStateClass fromCode(String code) {
+      if (code != null && code.length() >= 2) {
+         SQLStateClass result = (SQLStateClass)lookup.get(code.substring(0, 2));
+         return result != null ? result : OTHER;
+      } else {
+         return OTHER;
+      }
+   }
+
+   static {
+      SQLStateClass[] var0 = values();
+      int var1 = var0.length;
+
+      for(int var2 = 0; var2 < var1; ++var2) {
+         SQLStateClass clazz = var0[var2];
+         lookup.put(clazz.className, clazz);
+      }
+
+   }
+}

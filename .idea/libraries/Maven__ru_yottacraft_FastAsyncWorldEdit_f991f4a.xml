@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ru.yottacraft:FastAsyncWorldEdit:f991f4a">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/FastAsyncWorldEdit/f991f4a/FastAsyncWorldEdit-f991f4a.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/FastAsyncWorldEdit/f991f4a/FastAsyncWorldEdit-f991f4a-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/FastAsyncWorldEdit/f991f4a/FastAsyncWorldEdit-f991f4a-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

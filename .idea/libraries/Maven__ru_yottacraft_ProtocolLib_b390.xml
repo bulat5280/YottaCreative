@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ru.yottacraft:ProtocolLib:b390">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/ProtocolLib/b390/ProtocolLib-b390.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/ProtocolLib/b390/ProtocolLib-b390-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/yottacraft/ProtocolLib/b390/ProtocolLib-b390-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

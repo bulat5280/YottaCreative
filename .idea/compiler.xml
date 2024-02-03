@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jooq-codegen" />
+        <module name="hamcrest-core" />
+        <module name="creative-plus" />
+        <module name="jooq-meta" />
+        <module name="commons-pool2" />
+        <module name="flyway-core" />
+        <module name="commons-math3" />
+        <module name="slf4j-api" />
+        <module name="commons-codec" />
+        <module name="jooq" />
+        <module name="commons-logging" />
+        <module name="json-simple" />
+        <module name="HikariCP" />
+        <module name="httpclient" />
+        <module name="httpcore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-codec" target="1.6" />
+      <module name="commons-logging" target="1.3" />
+      <module name="commons-math3" target="1.5" />
+      <module name="commons-pool2" target="1.7" />
+      <module name="creative-plus" target="1.8" />
+      <module name="flyway-core" target="1.8" />
+      <module name="hamcrest-core" target="1.5" />
+      <module name="HikariCP" target="1.8" />
+      <module name="httpclient" target="1.6" />
+      <module name="httpcore" target="1.6" />
+      <module name="jooq" target="1.8" />
+      <module name="jooq-codegen" target="1.8" />
+      <module name="jooq-meta" target="1.8" />
+      <module name="json-simple" target="1.3" />
+      <module name="slf4j-api" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jooq" options="-Xlint:varargs" />
+      <module name="jooq-codegen" options="-Xlint:varargs" />
+      <module name="jooq-meta" options="-Xlint:varargs" />
+    </option>
+  </component>
+</project>

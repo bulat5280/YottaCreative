@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.bukkit.event.EventHandler" />
+    </list>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/META-INF/maven/org.jooq/jooq/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-meta/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.jooq/jooq-codegen/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.slf4j/slf4j-api/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/com.zaxxer/HikariCP/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/net.mineland/creative-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.flywaydb/flyway-core/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.hamcrest/hamcrest-core/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/commons-codec/commons-codec/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/commons-logging/commons-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-math3/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.apache.commons/commons-pool2/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/META-INF/maven/com.googlecode.json-simple/json-simple/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>PAPER</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="flyway-core" />
+    <orderEntry type="module" module-name="httpcore" />
+    <orderEntry type="module" module-name="httpclient" />
+    <orderEntry type="module" module-name="commons-logging" />
+    <orderEntry type="module" module-name="commons-codec" />
+    <orderEntry type="module" module-name="commons-pool2" />
+    <orderEntry type="module" module-name="commons-math3" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jetbrains:annotations:15.0" level="project" />
+    <orderEntry type="module" module-name="json-simple" />
+    <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
+    <orderEntry type="module" module-name="hamcrest-core" />
+    <orderEntry type="module" module-name="jooq" />
+    <orderEntry type="module" module-name="jooq-meta" />
+    <orderEntry type="module" module-name="jooq-codegen" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:6.0.5" level="project" />
+    <orderEntry type="library" name="Maven: p6spy:p6spy:3.7.0" level="project" />
+    <orderEntry type="module" module-name="HikariCP" />
+    <orderEntry type="module" module-name="slf4j-api" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ru.yottacraft:PaperSpigot:build1384" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ru.yottacraft:ProtocolLib:b390" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ru.yottacraft:FastAsyncWorldEdit:f991f4a" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ru.yottacraft:WorldEdit:6.1.7.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
+  </component>
+</module>
